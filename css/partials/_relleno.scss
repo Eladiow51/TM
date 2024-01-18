@@ -1,0 +1,97 @@
+.container{ color: white;
+    gap:1rem;
+    width: 300px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+    "historia historia ImagenesHistoria"
+    "ImagenesPrecios precios precios "
+    "tipos tipos TiposImagenes"
+    "ImagenesMarcas marcas marcas"
+
+    ,historia{grid-area: historia;
+        transition: .5s;}
+    
+        historia:hover{transform: rotate(360deg) scale(1.3);}
+    
+    .ImagenesHistoria{ grid-area:ImagenesHistoria;}
+    
+    .precios{grid-area: precios;
+        transition: .5s;
+    }
+    .precios:hover{transform: rotate(360deg) scale(1.3);}
+    
+    .ImagenesPrecios{grid-area:ImagenesPrecios ;}
+    .tipos{grid-area: tipos;
+        transition: .5s;}
+    .tipos:hover{transform: rotate(360deg) scale(1.3);}
+    .TiposImagenes{grid-area: TiposImagenes;}
+    .marcas{grid-area: marcas;
+        transition: .5s;}
+    .marcas:hover{transform: rotate(360deg) scale(1.3);}
+    
+    .ImagenesMarcas{grid-area:ImagenesMarcas;}
+    
+    .imagenes{width: 250px;
+    height: 250px;
+    }
+
+    
+    
+    
+    .definicion{color: white;
+        gap:1rem;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-row: 1fr 1fr  ;
+        grid-template-areas:
+        "antiguedad torre"
+        "bolsillo   cuarzo"
+        }
+    .antiguedad{grid-area: antiguedad;}
+    .torre{grid-area: torre; }
+    .debolsillo{ grid-area: bolsillo;}
+    .cuarzo{grid-area: cuarzo; transform: translate(0px,40px );}
+    
+    
+    .costosos{
+        color: white;
+        display: flex;
+    
+    }
+    .ContenidoPrecios{color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;}
+    
+    .ContenidoPrecios graff{display:flex;
+    flex-direction: column;
+    }
+    .Marcas{
+        display: flex;
+        padding: 2rem;
+         justify-content: space-between;}
+    
+    .Marcas a{color: white; text-decoration: none; padding: 2rem;}
+    .desarrollo{color: white;
+        animation-name: movimiento;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        padding: 2rem;
+    }
+    
+    @keyframes movimiento {0%{width: 30%;
+    }
+    100%{width: 100%; background-color: #2b56be;}
+    }
+    .TituloTipos{
+        color: white;text-align: center;
+        text-decoration: none;
+        
+    }
+    .Tipos{color: white; padding: 2rem;}}
+    

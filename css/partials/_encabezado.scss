@@ -1,0 +1,10 @@
+.logo{width: 100%;}
+.fondo{background-color: black;
+    background-image:linear-gradient(180deg, $colorfondo 100%) ;}
+.titulo{color: white; 
+    text-align: center; 
+    padding: 2rem;
+    text-decoration: none;
+    .tituloInicio{padding: 2rem;
+        width: 100%}
+}
