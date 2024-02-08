@@ -1,0 +1,30 @@
+@media screen and (max-width:500px) {
+    .definicion{
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "antiguedad"
+        "torre"
+        "bolsillo"
+        "cuarzo";
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .ContenidoPrecios{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .marcas{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
